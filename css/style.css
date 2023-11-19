@@ -116,6 +116,7 @@ main {
     background-color: rgba(58, 43, 86, 0.577);
     width: 100vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
 }
@@ -174,11 +175,6 @@ footer img:hover {
         background-size: auto, auto;
     }
 
-    .resp {
-        color: red;
-        /* display: none; */
-    }
-
     img {
         display: flex;
     }
@@ -194,12 +190,14 @@ footer img:hover {
         background-size: auto, auto;
     }
 
-    p {
-        color: green;
+    main {
+        display: flex;
+        justify-content: flex-start;
+
     }
 
-    .resp {
-        color: yellow;
+    .retour {
+        font-size: 50%;
     }
 
 }
