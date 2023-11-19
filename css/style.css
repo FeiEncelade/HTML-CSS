@@ -181,13 +181,17 @@ footer img:hover {
 }
 
 
-@media all and (max-device-width: 480px)
+@media all and (max-device-width: 500px)
 /*pour le mobile on va utiliser le max-device-width car cela permet de cibler la largeur de l ecran */
     {
     body {
         background-image: url(../image/ShadowHalo.png), url(../image/background.PNG);
         background-repeat: repeat, repeat;
         background-size: auto, auto;
+    }
+
+    .ring {
+        width: 50vw;
     }
 
     main {
